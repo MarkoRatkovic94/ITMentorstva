@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-image: url(../Background.jpg);
+	height: 80vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 4rem;
+	text-shadow: 0.05rem 0.05rem 0.05rem;
+	font-family: "Quicksand", sans-serif;
+}
+
+.container p {
+	margin-top: 9rem;
+}
+
+.allProducts {
+	display: flex;
+	gap: 0.625rem;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-family: "Quicksand", sans-serif;
+}
+
+.product {
+	background-color: #efefef;
+	width: 30rem;
+}
+
+.productInfo {
+	margin-left: 0.625rem;
+	font-size: 1.3rem;
+}
+
+.productInfo p {
+	margin-top: 0.5rem;
+}
+
+.product img {
+	width: 100%;
+}
+
+.productText {
+	display: flex;
+	margin-top: 0.5rem;
+	gap: 2rem;
+	padding: 0.2rem;
+	font-size: 1.1rem;
+}
+
+.productTextBackground {
+	width: 6.25rem;
+	background-color: rgb(245, 245, 245);
+	padding: 0.31rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.productPrice {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 0.5rem;
+	color: rgb(197, 0, 0);
+	margin-top: 1rem;
+	font-size: 1.5rem;
+}
+
+.footer {
+	background-color: gray;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 4.8rem;
+	font-size: 1.3rem;
+}
