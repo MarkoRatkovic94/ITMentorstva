@@ -1,0 +1,395 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.sectionMainPage {
+	background-color: black;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+	background-color: #252525;
+	color: gray;
+	padding: 1rem;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 0 0 1rem 1rem;
+}
+
+.navigation a {
+	text-decoration: none;
+}
+
+.navigationInstagram {
+	position: relative;
+	left: 50px;
+}
+
+.navigationInstagram img {
+	height: 1.2rem;
+}
+
+.navigationFacebook img {
+	height: 1.2rem;
+}
+
+.header {
+	display: flex;
+	background-color: black;
+	color: white;
+}
+
+.articleText h1,
+.articleText p {
+	margin-left: 200px;
+}
+
+.articleText h1 {
+	margin-bottom: 0.8rem;
+}
+
+.header p {
+	color: gray;
+}
+
+.articleText {
+	margin-top: 10.625rem;
+}
+
+.articleImage1 {
+	margin-left: 6.25rem;
+	margin-top: 8rem;
+	margin-left: 16rem;
+	border-radius: 50%;
+	width: 20rem;
+}
+
+.articleImage img {
+	margin-bottom: 10rem;
+}
+
+.articleButton {
+	margin-left: 12.5rem;
+	width: 13rem;
+	padding: 1rem;
+	background-color: green;
+	border-radius: 0.4rem;
+	box-shadow: 0 0 1rem green;
+	border: 1px solid green;
+	color: white;
+}
+
+/* --------------------------- END of MAIN PAGE ---------------------------*/
+
+.articleCaseStudies {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.articleCaseStudies h1 {
+	margin-bottom: 15px;
+	font-size: 3rem;
+}
+
+.articleCaseStudies p {
+	font-size: 2rem;
+}
+
+.caseStudiesImage img {
+	width: 800px;
+	height: 500px;
+}
+
+.firstCaseButton {
+	width: 13rem;
+	padding: 1rem;
+	margin-top: 30px;
+	border-radius: 0.4rem;
+	border: 1px solid blue;
+	background-color: blue;
+	color: white;
+}
+
+.caseStudiesDiv {
+	display: flex;
+	margin-top: 40px;
+}
+
+.secondArticleCaseStudies {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 2rem;
+}
+
+.secondArticleCaseStudies p {
+	width: 50%;
+	margin-top: 0.625rem;
+	font-size: 1.3rem;
+}
+.secondArticleCaseStudies h2 {
+	font-size: 2rem;
+}
+
+.secondCaseButton {
+	width: 13rem;
+	padding: 1rem;
+	margin-top: 30px;
+	border-radius: 0.4rem;
+	border: 1px solid green;
+	background-color: green;
+	color: white;
+}
+
+.caseStudiesImage {
+	margin-right: 200px;
+}
+
+.secondCaseStudiesDiv {
+	display: flex;
+}
+
+.secondCaseStudiesImage img {
+	width: 800px;
+	height: 500px;
+}
+
+.secondArticleCaseStudies1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 2rem;
+	margin-left: 100px;
+}
+
+.secondArticleCaseStudies1 P {
+	font-size: 1.3rem;
+	margin-top: 0.625rem;
+}
+
+.secondArticleCaseStudies1 h2 {
+	font-size: 2rem;
+}
+
+.thirdCaseStudiesImage img {
+	width: 800px;
+	height: 500px;
+}
+
+.thirdCaseStudiesDiv {
+	display: flex;
+	margin-top: 40px;
+}
+
+.thirdArticleCaseStudies {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 2rem;
+}
+
+.thirdArticleCaseStudies p {
+	width: 50%;
+	margin-top: 10px;
+	font-size: 1.3rem;
+}
+
+.thirdArticleCaseStudies h2 {
+	font-size: 2rem;
+}
+
+.thirdCaseStudiesImage {
+	margin-right: 200px;
+}
+
+.thirdCaseButton {
+	width: 13rem;
+	padding: 1rem;
+	margin-top: 30px;
+	border-radius: 0.4rem;
+	border: 1px solid red;
+	background-color: red;
+	color: white;
+}
+
+/*--------------------------- END of CASE STUDIES ---------------------------*/
+
+.sectionRecentWork {
+	text-align: center;
+	background-color: beige;
+	padding: 2rem;
+}
+
+.sectionRecentWork h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.firstArticleRecentWork {
+	text-align: center;
+}
+
+.firstArticleRecentWork h1 {
+	font-size: 3rem;
+}
+
+.firstArticleRecentWork p {
+	font-size: 2rem;
+}
+
+.divRecentWork {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	flex-direction: row;
+
+	margin-top: 5rem;
+}
+
+.secondArticleRecentWork {
+	width: 30%;
+}
+
+.thirdArticleRecentWork {
+	width: 34%;
+}
+
+.secondArticleRecentWork img {
+	width: 100%;
+}
+
+.secondArticleRecentWork h1,
+.secondArticleRecentWork p {
+	text-align: left;
+}
+
+.thirdArticleRecentWork img {
+	width: 100%;
+}
+
+.thirdArticleRecentWork h1,
+.thirdArticleRecentWork p {
+	text-align: left;
+}
+
+.recentWorkButton {
+	width: 13rem;
+	padding: 0.5rem;
+	margin-top: 30px;
+	background-color: orange;
+	color: white;
+	margin-right: 30rem;
+	border-radius: 0.3rem;
+	box-shadow: 0 0 1rem orange;
+	border: 1px solid orange;
+	color: white;
+}
+
+/*--------------------------- END of RECENT WORK ---------------------------*/
+
+.sectionGetInTouch {
+	background-color: black;
+	color: white;
+	padding: 2rem;
+}
+
+.articleGetInTouch {
+	text-align: center;
+}
+
+.articleGetInTouch h1 {
+	font-size: 3rem;
+}
+
+.articleGetInTouch p {
+	margin-top: 0.5rem;
+	font-size: 1.5rem;
+}
+
+.form {
+	margin-top: 2.5rem;
+}
+
+.emailLabel {
+	margin-right: 18.5rem;
+}
+
+.emailInput {
+	margin-top: 0.2rem;
+	height: 2rem;
+	width: 20rem;
+	border-radius: 0.4rem;
+	padding: 0.5rem;
+}
+
+.mobileLabel {
+	margin-right: 18rem;
+}
+
+.mobileInput {
+	margin-top: 0.2rem;
+	height: 2rem;
+	width: 20rem;
+	border-radius: 0.4rem;
+	padding: 0.5rem;
+}
+
+.mobileDiv {
+	margin-top: 1rem;
+}
+
+.messageLabel {
+	margin-right: 17.4rem;
+}
+
+.messasgeInput {
+	margin-top: 0.2rem;
+	height: 7rem;
+	width: 20rem;
+	border-radius: 0.4rem;
+	padding: 0.5rem;
+}
+
+.messageDiv {
+	margin-top: 1rem;
+}
+
+.buttonGetInTouch {
+	margin-top: 0.2rem;
+	height: 3.5rem;
+	width: 21.2rem;
+	border-radius: 0.4rem;
+	margin-top: 1rem;
+	background-color: green;
+	color: white;
+	box-shadow: 0 0 1rem green;
+	border: 1px solid green;
+}
+
+/*--------------------------- END of GET IN TOUCH ---------------------------*/
+
+.footer {
+	background-color: #252525;
+	color: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 1rem 1rem 0 0;
+}
+
+.footerBackground {
+	background-color: black;
+}
