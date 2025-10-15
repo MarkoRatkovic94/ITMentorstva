@@ -1,0 +1,25 @@
+.mojaSlika {
+	border-radius: 80px;
+}
+
+.naslov {
+	text-decoration: underline;
+}
+
+.podnaslov {
+	color: brown;
+}
+
+.Header {
+	text-align: center;
+	background-color: aqua;
+}
+
+.Main {
+	text-align: center;
+}
+
+.Footer {
+	text-align: center;
+	background-color: aqua;
+}
