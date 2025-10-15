@@ -1,0 +1,25 @@
+.frame {
+	width: 500px;
+	border: 2px solid rgb(92, 92, 92);
+	background-color: rgb(205 205 205);
+	text-align: center;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.frameImage {
+	width: 100%;
+	height: 400px;
+}
+
+.frameButton {
+	width: 200px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.centeredElements {
+	text-align: center;
+}
