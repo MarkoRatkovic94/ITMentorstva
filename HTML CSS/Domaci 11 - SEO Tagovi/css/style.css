@@ -393,3 +393,107 @@ html {
 .footerBackground {
 	background-color: black;
 }
+
+@media only screen and (max-width: 640px) {
+  .navigation {
+    position: relative;
+    width: 80%;
+  }
+
+  .navigation a {
+    position: absolute;
+  }
+
+  .aMainPage {
+    margin-right: 250px;
+    font-size: 0.7rem;
+  }
+
+  .aCaseStudies {
+    margin-right: 120px;
+    font-size: 0.7rem;
+  }
+
+  .aRecentWork {
+    margin-left: 30px;
+    font-size: 0.7rem;
+  }
+
+  .aGetInTouch {
+    margin-left: 170px;
+    font-size: 0.7rem;
+  }
+
+  .navigationInstagram img {
+    margin-left: 260px;
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+
+  .navigationFacebook img {
+    margin-left: 300px;
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+
+  .articleText {
+	margin-bottom: 50px;
+	transform: translateY(-50px);
+  }
+
+  .articleText h1,
+  .articleText p,
+  .articleButton {
+    transform: translateX(-140px);
+    font-size: 1rem;
+	width: 140px;
+  }
+
+  .articleImage img {
+	transform: translateX(-350px);
+	width: 150px;
+  }
+
+  .articleCaseStudies h1 {
+	font-size: 2.5rem;
+	transform: translateY(-30px);
+  }
+
+  .articleCaseStudies p {
+	font-size: 1.2rem;
+	text-align: center;
+	transform: translateY(-20px);
+  }
+
+  .secondArticleCaseStudies p {
+	font-size: 0.8rem;
+  }
+
+  .secondArticleCaseStudies {
+	transform: translateY(-30px);
+  }
+
+  .caseStudiesImage img {
+	width: 200px;
+	height: 200px;
+  }
+
+  .secondCaseStudiesImage img {
+	width: 200px;
+	height: 200px;
+	transform: translateY(60px);
+  }
+
+  .secondArticleCaseStudies1 {
+	transform: translateX(-95px);
+  }
+
+  /*.secondArticleCaseStudies1 h2 {
+	transform: translateX(-80px);
+  }
+
+  .secondArticleCaseStudies1 p {
+	transform: translateX(-80px);
+  }*/
+
+
