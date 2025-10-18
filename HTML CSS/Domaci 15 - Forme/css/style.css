@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.article {
+	width: 20%;
+}
+
+.article img {
+	width: 100%;
+}
+
+.productHolder {
+	margin: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.buyButton {
+	display: block;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	width: 150px;
+	border: 1px solid black;
+	transition: 1s ease;
+}
+
+.buyButton:hover {
+	background-color: white;
+	color: black;
+}
+
+/**
+    Mobilni do 640px
+    Tablet od 641px do 1023px
+    Laptop od 1024px
+**/
+
+/**
+Ovo pravilo za button vazi za sve uredjaje od 0 do 1023px tj za mobilne i tablete, pa smo stavili
+u taj jedan kod da ne bi ponavljali .buyButton u sekciju i za mobilne i za tablete posebno
+**/
+
+@media only screen and (max-width: 1023px) {
+	.buyButton {
+		width: 100%;
+		padding: 10px 0;
+	}
+}
+
+/**
+    Ovo pravilo je samo za tablete
+**/
+
+@media only screen and (min-width: 641px) and (max-width: 1023px) {
+	.article {
+		width: 30%;
+	}
+}
+
+/**
+    Ovo pravilo je samo za telefone
+**/
+
+@media only screen and (max-width: 640px) {
+	.article {
+		width: 85%;
+	}
+}
