@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/checkout.css"></link>
+    </head>
+    <body>
+        <form class="orderForm">
+
+
+            <div class="nameDiv">
+                <label for="ime">Ime:</label>
+                <input id="ime" type="text" placeholder="Unesite vase ime" required>
+            </div>
+
+            <div class="addressDiv">
+                <label for="adresa">Adresa:</label>
+                <input id="adresa" type="text" placeholder="Unesite vasu adresu" required>
+            </div>
+
+            <div class="emailDiv">
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="Unesite vas email" required>
+            </div>
+
+            <div class="cityDiv">
+                <p>Odaberite grad:</p>
+                <select>
+                    <option disabled selected>Izaberite grad</option>
+                    <option>Beograd</option>
+                    <option>Novi Sad</option>
+                    <option>Subotica</option>
+                </select>
+            </div>
+
+            <p class="payChoice">Odaberite nacin placanja</p>
+                <div class="cardDiv">
+                <input class="creditCardInput" type="radio" name="payChoice">
+                <label for="payChoice">Kreditnom karticom</label>
+                </div>
+                
+                <div class="cashDiv">
+                <input type="radio" name="payChoice">
+                <label for="payChoice">Pouzecem</label>
+                </div>
+
+                <div class="terms">
+                    <input type="checkbox" id="mailSubscription">
+                    <label for="mailSubscription">Zelim da primam mejlove sa ponudama</label>
+                </div>
+                
+
+            <div class="button">
+                <input type="submit" value="Posalji email">
+            </div>
+
+        </form>
+    </body>
+</html>
