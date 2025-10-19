@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand col-4" href="#">Navbar</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse col-8" id="navbarNav">
+					<ul class="navbar-nav w-100 justify-content-evenly">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Pricing</a>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link disabled"
+								href="#"
+								tabindex="-1"
+								aria-disabled="true"
+								>Disabled</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div
+			id="carouselExampleControls"
+			class="carousel slide"
+			data-bs-ride="carousel"
+		>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img
+						src="slike/lambo1.jpg"
+						class="d-block w-100"
+						alt="image of a lambo"
+					/>
+				</div>
+				<div class="carousel-item">
+					<img
+						src="slike/lambo2.jpg"
+						class="d-block w-100"
+						alt="image of a lambo"
+					/>
+				</div>
+				<div class="carousel-item">
+					<img
+						src="slike/lambo3.jpg"
+						class="d-block w-100"
+						alt="image of a lambo"
+					/>
+				</div>
+			</div>
+			<button
+				class="carousel-control-prev"
+				type="button"
+				data-bs-target="#carouselExampleControls"
+				data-bs-slide="prev"
+			>
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button
+				class="carousel-control-next"
+				type="button"
+				data-bs-target="#carouselExampleControls"
+				data-bs-slide="next"
+			>
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<section class="container d-flex flex-wrap mt-5 col-12">
+			<article
+				class="bg-dark text-white fw-bold fs-2 col-12 d-flex flex-column justify-content-center align-items-center"
+				style="height: 500px"
+			>
+				<p class="m-0 col-12 col-sm-10 d-flex justify-content-center fs-3">
+					Highly experienced web developer
+				</p>
+				<button
+					type="button"
+					class="btn btn-primary"
+					data-bs-toggle="modal"
+					data-bs-target="#exampleModal"
+				>
+					About me
+				</button>
+			</article>
+			<article
+				class="bg-info fw-bold fs-2 col-6 d-flex justify-content-center align-items-center"
+				style="height: 500px"
+			>
+				<p class="m-0">HTML/CSS</p>
+			</article>
+			<article
+				class="bg-primary fw-bold fs-2 col-6 d-flex justify-content-center align-items-center"
+			>
+				<p class="m-0">JavaScript</p>
+			</article>
+			<article
+				class="bg-dark text-white fs-2 col-12 d-flex justify-content-center align-items-center"
+				style="height: 500px"
+			>
+				<p class="m-0">PHP</p>
+			</article>
+		</section>
+
+		<!-- Modal -->
+		<div
+			class="modal fade"
+			id="exampleModal"
+			tabindex="-1"
+			aria-labelledby="exampleModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Pozdrav!</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="modal-body">
+						Toma je najbolji web developer ikada, svima bih ga preporucio! Ziv
+						bio!
+					</div>
+					<div class="modal-footer">
+						<button
+							type="button"
+							class="btn btn-secondary bg-primary"
+							data-bs-dismiss="modal"
+						>
+							Ok :&rpar;
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
