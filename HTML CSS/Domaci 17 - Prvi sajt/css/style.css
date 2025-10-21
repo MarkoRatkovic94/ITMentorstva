@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	background-color: rgb(201 201 201);
+	border-radius: 0 0 50px 50px;
+}
+
+.card-img {
+	height: 50vh;
+}
+
+.card-title {
+	margin-top: 97px;
+	text-shadow: 1px 1px 1px white;
+}
+
+.btn {
+	border-radius: 100px;
+}
+
+.btn:hover {
+	background-color: white;
+	color: #0d6efc;
+}
+
+.card {
+	margin-top: 50px;
+}
+
+.buttonViewMore {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.rounded-circle {
+	width: 100px;
+}
+
+.iconsHolder {
+	margin-bottom: 100px;
+}
+
+.buttonSubscribe {
+	border-radius: 0;
+	border: none;
+	width: 230px;
+}
+
+.footer {
+	border-radius: 50px 50px 0 0;
+	background-color: rgb(201 201 201);
+}
