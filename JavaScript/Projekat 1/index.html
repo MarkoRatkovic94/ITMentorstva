@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="text-md-center" >Simple Weather App</h1>
+
+    <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-primary me-md-2" type="button" id="showWeatherForMyLocation">Lociraj me</button>
+        <button class="btn btn-primary" type="button" id="changeLocation">Promeni lokaciju</button>
+        <button class="btn btn-success" type="button" id="day1Weather">1 Day</button>
+        <button class="btn btn-warning" type="button" id="day3Weather">3 Days</button>
+        <button class="btn btn-danger" type="button" id="day14Weather">14 Days</button>
+    </div>
+
+
+
+    <!---------------------------------------- JEDAN DAN ---------------------------------------->
+
+
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div id="day1Holder" class="d-none col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
+                <div class="card h-100">
+                    <img id="day1Img" src="" class="card-img-top img-fluid" alt="picture of weather">
+                    <div class="card-body">
+                        <h5 class="card-title">Petak</h5>
+                        <p class="weatherInfo"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!---------------------------------------- 3 DANA ---------------------------------------->
+
+
+
+
+    <div id="day3Holder" class="container d-none">
+        <div class="row g-3">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day3Img" alt="picture of weather">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Petak</h5>
+                        <p class="weatherInfos"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day3Img" alt="picture of weather">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Subota</h5>
+                        <p class="weatherInfos"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day3Img" alt="picture of weather">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Nedelja</h5>
+                        <p class="weatherInfos"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!---------------------------------------- 14 DANA ---------------------------------------->
+
+
+
+
+    <div id="day14Holder" class="container d-none">
+        <div class="row g-3">
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Petak</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Subota</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Nedelja</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ponedeljak</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Utorak</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sreda</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Četvrtak</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Petak</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Subota</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Nedelja</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ponedeljak</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Utorak</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sreda</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100">
+                    <img src="" class="card-img-top day14Img" alt="weather image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Četvrtak</h5>
+                        <p class="weatherInfos14"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="dist/script.min.js"></script>
+</body>
+</html>
